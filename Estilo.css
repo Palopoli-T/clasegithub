@@ -1,0 +1,512 @@
+/*Media queris hecho para iPhone x*/
+@media (min-width: 374px){
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: black;
+	font-family: 'Staatliches', cursive;
+}
+.imgLogo{
+	width: 100px;
+	margin-left: 120px;
+}
+.logoTrans{
+	transition: all 1s;
+}
+.logoTrans:hover{
+	width: 40%;
+	height: 40%;
+}
+.HeaderFlex{
+	background-color: #E77409;
+	text-shadow: 3x 3px 3px grey;
+	letter-spacing: 1px;
+	padding: 5px 3px;
+	height: 22vh;
+}
+.BarraInicio{
+    font-size: 16px;
+    text-align: center;
+    padding: 16px;
+    list-style-type: none;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+}
+.listMenu{
+	margin: 4px;
+}
+nav{
+	width: 50%;
+}
+header ul a{
+	text-decoration: none;
+	color: white;
+}
+div a{
+	text-decoration: none;
+	color: black
+}
+.bannerMenu {
+	height: 300px;
+	width: 100%;
+	background-image: url('img/hamburguesamenu.jpg');
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bannerMenu H1{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.bannerMenu h1 a{
+	margin-left: 36.5%;
+	align-items: center;
+
+}
+.bannerMenu P{	
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #050300;
+	display: flex;
+	justify-content: center;
+	
+} 
+.bannerMenu h2 {
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #ca8647;
+}
+.bannerNosotros{
+	height: 300px;
+	width: 100%;
+	background-image: url('img/nosotros.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+.bannerNosotros h2 a{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.bannerNosotros h3{
+	font-size: 28px;
+	font-weight: 400;
+	color: #c48347;
+	margin-top: 3%;
+	display: grid;
+	justify-content: center;
+	text-align: center;
+}
+.bannerNosotros p{
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	margin-top: 10%;
+	display:flex;
+	justify-content: center;
+}
+.Newlester{
+	background-image: linear-gradient(to bottom, #CF5D17, #C9682C , #B26C40, #B26C40,#A06E50 );
+	width: 100%;
+	height: 100px;
+}
+.Newlester p,.Newlester label{
+	margin-left: 3%;
+}
+fieldset div{
+	text-align: center;
+	color: white;
+}
+.secMain{
+	height: 50%;
+	width: 80%;
+	margin: auto;
+}
+.combos{
+	height: 600px;
+	width: 100%;
+	background-image: url('img/fondodepapas.jpg');
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.blanco{
+	color: white;
+}
+.FondoDeNosotros{
+	background-image: url("img/we.jpeg");
+	width: 100%;
+	height: 750px;
+	background-size: cover;
+}
+.tituloArticle{
+	font-size: 50px;
+	color: darkorange;
+	margin: 14px;
+	text-align: center;
+}
+div article h4, div article p{
+	margin-bottom: 14px;
+}
+.imgHamb{
+	width: 300px;
+	height: 200px;
+}
+.hambTrans{
+	transition: all 1s;
+}
+.hambTrans:hover{
+	width: 320px;
+	height: 220px;
+}
+.menuHamb{
+	margin: 0px;
+	padding: 0px;
+	background-image: linear-gradient(to right, black, grey, lightgrey);
+	color: #984310;
+	font-size: 20px;
+	text-align: center;
+	align-items: center;
+	display: grid;
+	justify-content: space-between;
+	grid-template-areas: 
+	"none articulo1 articulo2 articulo3"
+	"none articulo1 articulo2 articulo3"
+	"none articulo1 articulo2 articulo3"
+;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+}
+#hamb1{
+	grid-area: articulo1;
+}
+#hamb2{
+	grid-area: articulo2;
+}
+#hamb3{
+	grid-area: articulo3;
+}
+.menuFritas{
+	background-image: linear-gradient(to right, black, grey, lightgrey);
+	color: #984310;
+	font-size: 25px;
+	text-align: center;
+	align-items: center;
+	display: grid;
+	grid-template-areas: 
+	"none articulo1 articulo2 articulo3"
+	"none articulo1 articulo2 articulo3"
+	"none articulo1 articulo2 articulo3";
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: grey;
+	display: grid;
+}
+#fritas1{
+	grid-area: articulo1;
+}
+#fritas2{
+	grid-area: articulo2;
+}
+#fritas3{
+	grid-area: articulo3;
+}
+.contactoGrid{
+	background-image: url(img/fondoContacto.jpeg);
+	background-size: cover;
+	background-position: center center;
+	height:500px;
+	margin: 40px;
+	text-align: center;
+	display: grid;
+	justify-content: center;
+	grid-template-areas: 
+	"none contacto none"
+	"none contacto none"
+	"none contacto none"
+	"none contacto none";
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+#contacto{
+	grid-area: contacto;
+}
+/*Media queris hecho para iPad y iPad Pro*/
+
+@media (min-width: 767px){
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	body{
+		background-color: black;
+		font-family: 'Staatliches', cursive;
+	}
+	.imgLogo{
+		width: 100px;
+		margin: 0%;
+	}
+	.logoTrans{
+		transition: all 1s;
+	}
+	.logoTrans:hover{
+		width: 120px;
+		height: 120px;
+	}
+	.HeaderFlex{
+		background-color: #E77409;
+		color: #FFAF65;
+		text-shadow: 6px 6px 6px grey;
+		letter-spacing: 3px;
+		padding: 10px 7px;
+		height: 15vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.BarraInicio{
+		font-size: 16px;
+		text-align: center;
+		padding: 16px;
+		list-style-type: none;    
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.listMenu{
+		margin: 10px;
+	}
+	nav{
+		width: 50%;
+	}
+	header ul a{
+		text-decoration: none;
+		color: white;
+	}
+	div a{
+		text-decoration: none;
+		color: black
+	}
+	.bannerMenu {
+		height: 450px;
+		width: 100%;
+		background-image: url('img/hamburguesamenu.jpg');
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.bannerMenu H1{
+		font-size: 50px;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+	.bannerMenu h1 a{
+		margin-left: 36.5%;
+		align-items: center;
+	
+	}
+	.bannerMenu P{	
+		font-size: 35px;
+		text-transform: uppercase;
+		font-weight: 400;
+		color: #050300;
+		display: flex;
+		justify-content: center;
+		
+	} 
+	.bannerMenu h2 {
+		font-size: 35px;
+		text-transform: uppercase;
+		font-weight: 400;
+		color: #ca8647;
+	}
+	.bannerNosotros{
+		height: 450px;
+		width: 100%;
+		background-image: url('img/nosotros.jpeg');
+		background-size: cover;
+		background-position: center center;
+	}
+	.bannerNosotros h2 a{
+		font-size: 50px;
+		text-transform: uppercase;
+		font-weight: 700;
+		text-decoration: none;
+		display: grid;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+	}
+	.bannerNosotros h3{
+		font-size: 35px;
+		font-weight: 400;
+		color: #c48347;
+		margin-top: 3%;
+		display: grid;
+		justify-content: center;
+		text-align: center;
+	}
+	.bannerNosotros p{
+		font-size: 33px;
+		font-weight: 400;
+		color: white;
+		margin-top: 10%;
+		display:flex;
+		justify-content: center;
+	}
+	.Newlester{
+		background-image: linear-gradient(to bottom, #CF5D17, #C9682C , #B26C40, #B26C40,#A06E50 );
+		width: 100%;
+		height: 100px;
+	}
+	.Newlester p,.Newlester label{
+		margin-left: 3%;
+	}
+	fieldset div{
+		text-align: center;
+		color: white;
+	}
+	.secMain{
+		background-color: rgb(24, 13, 13);
+	}
+
+/*Media queris hecho para Desktop*/
+@media (min-width: 1085px){
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	body{
+		background-color: black;
+		font-family: 'Staatliches', cursive;
+	}
+	.imgLogo{
+		width: 100px;
+		margin: 0%
+	}
+	.logoTrans{
+		transition: all 1s;
+	}
+	.logoTrans:hover{
+		width: 105;
+	}
+	.HeaderFlex{
+		background-color: #E77409;
+		text-shadow: 6x 6px 6px grey;
+		letter-spacing: 1px;
+		padding: 5px 3px;
+		height: 18vh;
+	}
+	.BarraInicio{
+		font-size: 16px;
+		text-align: center;
+		padding: 16px;
+		list-style-type: none;    
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center ;
+	}
+	.listMenu{
+		margin: 4px;
+	}
+	nav{
+		width: 50%;
+	}
+	header ul a{
+		text-decoration: none;
+		color: white;
+	}
+	div a{
+		text-decoration: none;
+		color: black
+	}
+	.bannerMenu {
+	height: 600px;
+	width: 100%;
+	background-image: url('img/hamburguesamenu.jpg');
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bannerMenu H1{
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.bannerMenu h1 a{
+	margin-left: 36.5%;
+	align-items: center;
+
+}
+.bannerMenu P{	
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #050300;
+	display: flex;
+	justify-content: center;
+	
+} 
+.bannerMenu h2 {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #ca8647;
+}
+.bannerNosotros{
+	height: 600px;
+	width: 100%;
+	background-image: url('img/nosotros.jpeg');
+	background-size: cover;
+	background-position: center center;
+}
+.bannerNosotros h2 a{
+	font-size: 60px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.bannerNosotros h3{
+	font-size: 40px;
+	font-weight: 400;
+	color: #c48347;
+	margin-top: 3%;
+	display: grid;
+	justify-content: center;
+	text-align: center;
+}
+.bannerNosotros p{
+	font-size: 33px;
+	font-weight: 400;
+	color: white;
+	margin-top: 10%;
+	display:flex;
+	justify-content: center;
+}
